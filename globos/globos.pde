@@ -1,5 +1,6 @@
 class Globo
 {
+  color c;
   float x, y,vx,vy;
   Globo (float _x, float _y)
   {
@@ -17,6 +18,7 @@ class Globo
 
   void dibujate()
   {
+      fill(c);
       ellipse(x,y,100,100);
   }
   
